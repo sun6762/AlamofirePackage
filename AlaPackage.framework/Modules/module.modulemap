@@ -1,0 +1,11 @@
+framework module AlaPackage {
+  umbrella header "AlaPackage.h"
+
+  export *
+  module * { export * }
+}
+
+module AlaPackage.Swift {
+  header "AlaPackage-Swift.h"
+  requires objc
+}
